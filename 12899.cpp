@@ -7,7 +7,6 @@ string solution(int n) {
     string answer = "";
     stack <int> s;
     int a;
-    n-1;
     while(n > 0){
         s.push((n-1)%3);
         n = (n-1)/3;
