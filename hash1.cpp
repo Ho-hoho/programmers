@@ -1,11 +1,11 @@
 #include <string>
 #include <vector>
-#include <map>
+#include <unordered_map>
 using namespace std;
 
 string solution(vector<string> participant, vector<string> completion) {
     string answer = "";
-    map <string,int> hash;
+    unordered_map <string,int> hash;
     for(auto i : participant){
         hash[i]++;
     }
